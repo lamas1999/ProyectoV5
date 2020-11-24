@@ -1,5 +1,6 @@
 
 <meta charset="utf-8">
+<meta name="Geolocalizacion de Motocicletas RossMotors" content="Plataforma de ubicación satelital de la empresa RossMotors, es una empresa que se dedica exclusivamente al alquiler de motocicletas proveyendo una herramienta de trabajo a las personas.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->

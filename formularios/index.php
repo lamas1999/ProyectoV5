@@ -2,7 +2,7 @@
 include_once("../clases/conexion.php");
 include_once("../clases/usuario.php");
 require_once("../clases/ctrl_session.php");
-require_once("../clases/track_da.php");/*  */
+
 
 //---------- USES DE LAS CLASES DE NAMESPACES ----
 use \clases\ctrl_session\Ctrl_Session;
@@ -11,14 +11,10 @@ Ctrl_Session::verificar_inicio_session();
 
 use \clases\conexion\Conexion;
 use \clases\usuario\Usuario;
-/*  */
-use \clases\track_da\Track_da;
+
 
 $cnx = new Conexion();
 $usuario = new Usuario($cnx);
-/*  */
-
-$track_da = new Track_da($cnx);
 
 $id = Ctrl_Session::get_id_usuario();
 $nombre = "";
@@ -30,20 +26,6 @@ if ($usuario->traerporid($id)) {
     $apellido = $usuario->get_apellido();
     $imagen = $usuario->get_imagen();
 }
-
-
-
-
-/*  */
-$rider_id = 999;
-$latitud = "";
-$Longitud = "";
-
-
-if ($track_da->traerporid($rider_id)) {
-    $latidud = $track_da->get_track_lat();
-    $longitud = $track_da->get_track_lng();
-}
 ?>
 
 <?php include("incluir_header.php"); ?>
@@ -53,10 +35,15 @@ if ($track_da->traerporid($rider_id)) {
 <main class="app-content">
     <div class="app-title">
         <div>
-            <h1><i class="fa fa-map-marker" aria-hidden="true"></i> Geolocalizacion</h1>
-            <p>Inicia la busqueda en el mapa
-
-            </p>
+            <h1><i class="fa fa-map-marker" aria-hidden="true"></i> Geolocalización</h1>
+            <p>Inicia la busqueda en el mapa</p>
+        <div id="menu-mapa">
+            <input id="streets-v11" type="radio" name="rtoggle" value="streets" checked="checked" />
+            <label for="streets-v11">Mapa</label>
+            <input id="satellite-v9" type="radio" name="rtoggle" value="satellite" />
+            <label for="satellite-v9">Satélite</label>
+        </div>
+  
         </div>
         <ul class="app-breadcrumb breadcrumb">
             <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
@@ -64,12 +51,11 @@ if ($track_da->traerporid($rider_id)) {
         </ul>
     </div>
 
-    <div id="map">
-        <script src="../assets/js/maps.js"></script>
-      <!--  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy5crOl57-UrPP2tiasS7x_uccPqgjBfM&callback=iniciarMap"></script>  -->
-    </div>
-
-
+    <div id="map" class="mapa tile">  </div> 
+    <script src="../assets/js/scrip-mapbox.js"></script>
+ 
+   
+    
 </main>
 
 <?php include("incluir_footer.php"); ?>

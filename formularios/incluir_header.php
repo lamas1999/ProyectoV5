@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta name="description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <meta name="Geolocalizacion de Motocicletas RossMotors" content="Plataforma de ubicación satelital de la empresa RossMotors, es una empresa que se dedica exclusivamente al alquiler de motocicletas proveyendo una herramienta de trabajo a las personas.">
     <!-- Twitter meta-->
-    <meta property="twitter:card" content="summary_large_image">
+    <!-- <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:site" content="@pratikborsadiya">
-    <meta property="twitter:creator" content="@pratikborsadiya">
+    <meta property="twitter:creator" content="@pratikborsadiya"> -->
     <!-- Open Graph Meta-->
-    <meta property="og:type" content="website">
+    <!-- <meta property="og:type" content="website">
     <meta property="og:site_name" content="Vali Admin">
     <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
     <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
     <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
-    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular."> -->
     <title>Centro de-Localizacion</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,17 +24,18 @@
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Mapsbox -->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+   <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- <link href="mapbox-gl-controls/theme.css" rel="stylesheet"> -->
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="#">RoosMotors</a>
+    <header class="app-header"><a class="app-header__logo" href="#">RossMotors</a>
       <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
       <!-- Navbar Right Menu-->
       <ul class="app-nav">
      <!--    <li class="app-search">
-          <input class="app-search__input" type="search" placeholder="Search">
+          <input class="app-search__input" type="search" placeholder="Busquda">
           <button class="app-search__button"><i class="fa fa-search"></i></button>
         </li> -->
      

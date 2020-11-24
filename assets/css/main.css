@@ -15907,29 +15907,6 @@ be a descendant of the grid when it is being dragged.
   height: 50vh;
 }
 
-#map {
- /*  height: 400px;
-  width: 90%; */
-
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: calc(100vh - 110px);
-  margin-bottom: 0;
-}
-
-
-
 .m-loader {
   position: relative;
   width: 40px;
@@ -16570,7 +16547,7 @@ be a descendant of the grid when it is being dragged.
   font-weight: 700;
 }
 
-.page-error {
+.mapa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16588,11 +16565,18 @@ be a descendant of the grid when it is being dragged.
   margin-bottom: 0;
 }
 
-.page-error h1 {
+.mapa h1 {
   margin: 10px;
   color: #dc3545;
   font-size: 42px;
 }
+
+#menu-mapa {
+  position: relative;
+  background: #fff;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  }
 
 .folder-head {
   padding: 10px;
@@ -16768,11 +16752,6 @@ be a descendant of the grid when it is being dragged.
   color: #666;
 }
 
-/* ******************************* */
-/*  .col-sm-label {
-  width: 16.66666667%;
-  text-align: center;
-}
- */
+
 
  

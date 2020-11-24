@@ -25,7 +25,7 @@
         </div>
       </div>
       <ul class="app-menu">
-        <li><a class="app-menu__item" href="index.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
+        <li><a class="app-menu__item" href="index.php"><i class="app-menu__icon fa fa-map"></i><span class="app-menu__label">Inicio</span></a></li>
         
      
         <li><a class="app-menu__item" href="frmperfil.php"><i class="app-menu__icon fa fa-user-circle-o"></i><span class="app-menu__label">Perfil</span></a></li>

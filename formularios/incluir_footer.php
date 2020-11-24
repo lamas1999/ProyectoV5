@@ -8,8 +8,9 @@
     <script src="../assets/js/plugins/pace.min.js"></script>
     <script src="../assets/js/login.js"></script>
     <script src="../assets/js/loginr.js"></script>
-
-    <script src="../assets/js/track.js"></script>
+    <!-- Mapbox -->
+   
+</script>
     <!-- Page specific javascripts-->
     <!-- Google analytics script-->
     <script type="text/javascript">

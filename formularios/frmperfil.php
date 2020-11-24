@@ -32,8 +32,6 @@ if ($usuario->traerporid($id)) {
     $telefono = $usuario->get_telefono();
     $imagen = $usuario->get_imagen();
 }
-
-
 ?>
 
 <?php include("incluir_header.php"); ?>
